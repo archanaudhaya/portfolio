@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Archana R — Full Stack Developer</title>
+<meta name="description" content="Archana R — Aspiring Full Stack Developer skilled in Java, Spring Boot, React.js, HTML5, CSS3, JavaScript and MySQL. Portfolio of projects, experience and certifications.">
+<meta name="theme-color" content="#0B1220">
+
+<!-- Fonts: Space Grotesk (display), Inter (body), IBM Plex Mono (labels/data) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NOISE / GRID BACKDROP (decorative, aria-hidden) ============ -->
+<div class="grid-backdrop" aria-hidden="true"></div>
+
+<!-- ============ SKIP LINK (accessibility) ============ -->
+<a href="#home" class="skip-link">Skip to content</a>
+
+<!-- ============ NAVIGATION ============ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo">
+      <span class="nav-logo-mark">AR</span>
+      <span class="nav-logo-status" aria-hidden="true"></span>
+    </a>
+
+    <nav class="nav-links" id="nav-links" aria-label="Primary">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#certifications" class="nav-link">Certifications</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <!-- <div class="nav-actions">
+      <a href="C:\Users\USER\Desktop\portfolio\Archana_R_Resume (1).pdf" download class="btn btn-ghost btn-sm">Resume</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+    </div> -->
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home
+  ">
+    <div class="hero-inner">
+
+      <div class="hero-photo-wrap" data-animate="fade-up">
+        <div class="hero-photo-ring">
+          <img src="C:\Users\USER\Desktop\portfolio\archana_r_photo.jpeg" alt="Portrait of Archana R" class="hero-photo" width="200" height="200">
+        </div>
+      </div>
+
+      <div class="hero-status" data-animate="fade-up">
+        <span class="status-dot" aria-hidden="true"></span>
+        <span class="mono-label">STATUS: OPEN_TO_WORK</span>
+      </div>
+
+      <p class="hero-eyebrow mono-label" data-animate="fade-up">// PORTFOLIO</p>
+
+      <h1 class="hero-title" data-animate="fade-up">
+        <span class="hero-title-line">Archana R</span>
+      </h1>
+
+      <p class="hero-role" data-animate="fade-up">
+        <span class="hero-role-text" id="hero-role-text">Full Stack Developer</span><span class="hero-cursor" aria-hidden="true">_</span>
+      </p>
+
+      <p class="hero-intro" data-animate="fade-up">
+        Aspiring full stack developer building with <strong>Java</strong>, <strong>Spring Boot</strong>, <strong>React.js</strong>,
+        <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>JavaScript</strong> and <strong>MySQL</strong>. I care about
+        secure, responsive, user-centric software — shaped in part by building an ML-based ransomware defense system
+        and completing a full stack development internship.
+      </p>
+
+      <div class="hero-cta" data-animate="fade-up">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="C:\Users\USER\Desktop\portfolio\Archana_R_Resume (1).pdf" download class="btn btn-secondary">Download Resume</a>
+        <a href="#contact" class="btn btn-ghost">Contact Me</a>
+      </div>
+
+      <div class="hero-social" data-animate="fade-up">
+        <a href="https://www.linkedin.com/in/archana-raja-7aa1692a1/" target="_blank" rel="noopener noreferrer" class="social-chip" data-social="linkedin" aria-label="LinkedIn profile">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8.25h4V23h-4V8.25zM8.5 8.25h3.83v2.01h.05c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.78 2.65 4.78 6.1V23h-4v-6.9c0-1.65-.03-3.77-2.3-3.77-2.3 0-2.65 1.8-2.65 3.65V23h-4V8.25z"/></svg>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://github.com/archanaudhaya" target="_blank" rel="noopener noreferrer" class="social-chip" data-social="github" aria-label="GitHub profile">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56 0-.27-.01-1.17-.02-2.12-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.29-1.68-1.29-1.68-1.05-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.07 11.07 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.7 5.4-5.27 5.68.42.36.78 1.08.78 2.17 0 1.57-.01 2.83-.01 3.22 0 .31.21.67.8.56A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-panel" data-animate="fade-in" aria-hidden="true">
+      <div class="scan-panel">
+        <div class="scan-panel-head">
+          <span class="mono-label">R-GUARD // MONITOR</span>
+          <span class="scan-live"><span class="scan-live-dot"></span>LIVE</span>
+        </div>
+        <div class="scan-panel-body">
+          <div class="scan-row"><span>FILE_SYSTEM_EVENTS</span><span class="scan-val">TRACKING</span></div>
+          <div class="scan-row"><span>ENTROPY_ANALYSIS</span><span class="scan-val">LSTM · DBSCAN</span></div>
+          <div class="scan-row"><span>CLASSIFIER</span><span class="scan-val">RF + GRADIENT_BOOST</span></div>
+          <div class="scan-row"><span>THREAT_LEVEL</span><span class="scan-val scan-val-ok">LOW</span></div>
+          <div class="scan-bars" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+      <span>SCROLL</span>
+      <span class="scroll-cue-line"></span>
+    </a>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section section-light" id="about">
+    <div class="section-inner">
+      <p class="eyebrow mono-label" data-animate="fade-up">// ABOUT</p>
+      <h2 class="section-title" data-animate="fade-up">About me</h2>
+
+      <div class="about-grid">
+        <div class="about-text" data-animate="fade-up">
+          <p>
+            I'm a Bachelor of Engineering student in Computer Science at University College of Engineering
+            (Anna University), Kanchipuram, with practical, hands-on experience in full stack web development
+            and machine-learning-based security projects.
+          </p>
+          <p>
+            My work so far spans building responsive interfaces, developing RESTful APIs with Spring Boot, and
+            experimenting with anomaly-detection techniques for a ransomware defense system. I enjoy solving
+            problems end-to-end — from interface to database — and I'm especially drawn to building software
+            that is secure and genuinely useful to the people who use it.
+          </p>
+          <p>
+            I'm currently focused on strengthening my full stack skill set and continuing to learn — always
+            looking for the next problem to solve.
+          </p>
+        </div>
+
+        <div class="about-facts" data-animate="fade-up">
+          <div class="fact-card">
+            <span class="mono-label">DEGREE</span>
+            <p>B.E. Computer Science, 2022–2026</p>
+          </div>
+          <div class="fact-card">
+            <span class="mono-label">FOCUS</span>
+            <p>Full Stack Development · Java / Spring Boot · React.js</p>
+          </div>
+          <div class="fact-card">
+            <span class="mono-label">INTEREST</span>
+            <p>Secure, user-centric software &amp; anomaly detection</p>
+          </div>
+          <div class="fact-card">
+            <span class="mono-label">BASED_IN</span>
+            <p>Kumbakonam, Tamil Nadu, India</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section class="section section-dark" id="education">
+    <div class="section-inner">
+      <p class="eyebrow mono-label" data-animate="fade-up">// EDUCATION</p>
+      <h2 class="section-title" data-animate="fade-up">Education</h2>
+
+      <div class="timeline">
+        <div class="timeline-item" data-animate="fade-up">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <span class="mono-label timeline-date">2022 — 2026</span>
+            <h3>Bachelor of Engineering in Computer Science</h3>
+            <p class="timeline-sub">University College of Engineering (Anna University), Kanchipuram</p>
+            <span class="badge badge-accent">CGPA: 8.5</span>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-animate="fade-up">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <span class="mono-label timeline-date">2022</span>
+            <h3>Higher Secondary Certificate (HSC)</h3>
+            <p class="timeline-sub">Sri Saraswati Patasala Girls Hr. Sec. School, Kumbakonam</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="section section-light" id="experience">
+    <div class="section-inner">
+      <p class="eyebrow mono-label" data-animate="fade-up">// EXPERIENCE</p>
+      <h2 class="section-title" data-animate="fade-up">Experience</h2>
+
+      <div class="timeline timeline-light">
+        <div class="timeline-item" data-animate="fade-up">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <span class="mono-label timeline-date">JUN 30 — JUL 30, 2025 · INTERNSHIP</span>
+            <h3>Full Stack Development Intern</h3>
+            <p class="timeline-sub">Approtech R&amp;D Solutions Pvt Ltd, Tambaram</p>
+            <ul class="timeline-list">
+              <li>Enhanced an interactive web-based quiz application using HTML5, CSS, JavaScript and core Java, enabling dynamic question handling, real-time answer validation and automated score tracking.</li>
+              <li>Designed a responsive and user-friendly interface with timed quizzes, instant feedback and cross-browser compatibility, improving user engagement and learning experience.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section section-dark" id="projects">
+    <div class="section-inner">
+      <p class="eyebrow mono-label" data-animate="fade-up">// PROJECTS</p>
+      <h2 class="section-title" data-animate="fade-up">Selected Projects</h2>
+
+      <!-- Featured project -->
+      <article class="project-featured" data-animate="fade-up">
+        <div class="project-featured-head">
+          <span class="badge badge-accent">FINAL YEAR PROJECT</span>
+          <h3>R-GUARD</h3>
+          <p class="project-featured-sub">Ransomware Defense System using Heuristic Traps and Behavioural Anomaly Detection</p>
+        </div>
+
+        <div class="project-featured-body">
+          <div class="pf-block">
+            <span class="mono-label pf-label">PROBLEM</span>
+            <p>Modern ransomware rapidly encrypts files, while traditional antivirus solutions can fail to detect new variants because they rely heavily on malware signatures.</p>
+          </div>
+          <div class="pf-block">
+            <span class="mono-label pf-label">IMPLEMENTATION</span>
+            <p>Monitors real-time file-system events and extracts entropy and behavioural features using:</p>
+            <div class="tag-row">
+              <span class="tag">LSTM</span>
+              <span class="tag">Sliding Window Approach</span>
+              <span class="tag">UA-DES-DBN</span>
+              <span class="tag">DBSCAN</span>
+              <span class="tag">Random Forest</span>
+              <span class="tag">Gradient Boosting</span>
+            </div>
+          </div>
+          <div class="pf-block">
+            <span class="mono-label pf-label">SOLUTION</span>
+            <p>Aims to detect ransomware at an early stage, generate risk-based alerts, and help prevent large-scale file encryption and data loss.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project grid -->
+      <div class="project-grid">
+        <article class="project-card" data-animate="fade-up">
+          <div class="project-card-head">
+            <span class="mono-label">FRONTEND · HACKATHON</span>
+            <h3>EcoFinds</h3>
+            <p class="project-card-sub">Secondary Usage Product Delivery App</p>
+          </div>
+          <p class="project-card-desc">
+            A second-hand product e-commerce platform that lets users register, authenticate, list, browse
+            and purchase pre-owned products.
+          </p>
+          <ul class="project-card-list">
+            <li>Built the user-facing e-commerce interface using React.js</li>
+            <li>Developed RESTful APIs using Spring Boot</li>
+            <li>Implemented CRUD operations</li>
+            <li>Integrated MySQL for data management</li>
+            <li>Designed a responsive UI for product search and order management</li>
+          </ul>
+          <div class="tag-row">
+            <span class="tag tag-sm">React.js</span>
+            <span class="tag tag-sm">HTML5</span>
+            <span class="tag tag-sm">CSS3</span>
+            <span class="tag tag-sm">JavaScript</span>
+            <span class="tag tag-sm">Java</span>
+            <span class="tag tag-sm">Spring Boot</span>
+            <span class="tag tag-sm">MySQL</span>
+            <span class="tag tag-sm">REST API</span>
+            <span class="tag tag-sm">Git</span>
+          </div>
+        </article>
+
+        <article class="project-card" data-animate="fade-up">
+          <div class="project-card-head">
+            <span class="mono-label">BACKEND · SPRING BOOT</span>
+            <h3>Product Delivery App</h3>
+            <p class="project-card-sub">Spring Boot backend for product &amp; delivery management</p>
+          </div>
+          <p class="project-card-desc">
+            A Spring Boot application to manage product listings, customer orders and delivery workflows
+            through a secure and scalable backend.
+          </p>
+          <ul class="project-card-list">
+            <li>Implemented RESTful APIs</li>
+            <li>Integrated MySQL database for data management</li>
+            <li>Managed product and order-related data</li>
+            <li>Performed testing to ensure reliable application performance</li>
+          </ul>
+          <div class="tag-row">
+            <span class="tag tag-sm">Java</span>
+            <span class="tag tag-sm">Spring Boot</span>
+            <span class="tag tag-sm">MySQL</span>
+            <span class="tag tag-sm">REST API</span>
+          </div>
+        </article>
+      </div>
+
+      <!-- <p class="project-note mono-label" data-animate="fade-up">// Add GitHub / live links here once available</p> -->
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section section-light" id="skills">
+    <div class="section-inner">
+      <p class="eyebrow mono-label" data-animate="fade-up">// SKILLS</p>
+      <h2 class="section-title" data-animate="fade-up">Technical Skills</h2>
+
+      <div class="skills-grid">
+        <div class="skill-category" data-animate="fade-up">
+          <h3 class="skill-category-title">Programming Languages</h3>
+          <div class="tag-row">
+            <span class="tag">Python</span><span class="tag">Java</span><span class="tag">C</span>
+            <span class="tag">JavaScript</span><span class="tag">HTML5</span><span class="tag">CSS3</span>
+            <span class="tag">SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-category" data-animate="fade-up">
+          <h3 class="skill-category-title">Frameworks &amp; Libraries</h3>
+          <div class="tag-row">
+            <span class="tag">Spring Boot</span><span class="tag">Node.js</span>
+            <span class="tag">React.js</span><span class="tag">Angular</span>
+          </div>
+        </div>
+
+        <div class="skill-category" data-animate="fade-up">
+          <h3 class="skill-category-title">Databases</h3>
+          <div class="tag-row">
+            <span class="tag">MySQL</span><span class="tag">PostgreSQL</span>
+            <span class="tag">MongoDB <em>(Basic)</em></span>
+          </div>
+        </div>
+
+        <div class="skill-category" data-animate="fade-up">
+          <h3 class="skill-category-title">Concepts</h3>
+          <div class="tag-row">
+            <span class="tag">OOP</span><span class="tag">RESTful API</span>
+            <span class="tag">Responsive Design</span><span class="tag">AI Technologies</span>
+          </div>
+        </div>
+
+        <div class="skill-category" data-animate="fade-up">
+          <h3 class="skill-category-title">Tools</h3>
+          <div class="tag-row">
+            <span class="tag">VS Code</span><span class="tag">IntelliJ IDEA</span>
+            <span class="tag">Postman</span><span class="tag">Docker <em>(Basic)</em></span>
+            <span class="tag">Git &amp; GitHub</span><span class="tag">Figma</span><span class="tag">Excel</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SOFT SKILLS ============ -->
+  <section class="section section-dark" id="soft-skills">
+    <div class="section-inner">
+      <p class="eyebrow mono-label" data-animate="fade-up">// PROFESSIONAL QUALITIES</p>
+      <h2 class="section-title" data-animate="fade-up">Soft Skills</h2>
+
+      <div class="soft-grid">
+        <div class="soft-card" data-animate="fade-up">
+          <h3>Problem Solving</h3>
+          <p>Comfortable breaking down technical problems, from interface bugs to detection logic.</p>
+        </div>
+        <div class="soft-card" data-animate="fade-up">
+          <h3>Continuous Learning</h3>
+          <p>Actively building skills through coursework, certifications and independent projects.</p>
+        </div>
+        <div class="soft-card" data-animate="fade-up">
+          <h3>Team Collaboration</h3>
+          <p>Worked within a team to design and build the R-GUARD detection system.</p>
+        </div>
+        <div class="soft-card" data-animate="fade-up">
+          <h3>Adaptability</h3>
+          <p>Comfortable moving across the stack — frontend, backend and data layers.</p>
+        </div>
+        <div class="soft-card" data-animate="fade-up">
+          <h3>User-Centric Thinking</h3>
+          <p>Focused on building responsive, intuitive interfaces people actually enjoy using.</p>
+        </div>
+        <div class="soft-card" data-animate="fade-up">
+          <h3>Attention to Detail</h3>
+          <p>Careful with data handling and validation, especially in security-focused work.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CERTIFICATIONS ============ -->
+  <section class="section section-light" id="certifications">
+    <div class="section-inner">
+      <p class="eyebrow mono-label" data-animate="fade-up">// CERTIFICATIONS</p>
+      <h2 class="section-title" data-animate="fade-up">Certifications &amp; Achievements</h2>
+
+      <div class="cert-grid">
+        <div class="cert-card" data-animate="fade-up">
+          <span class="cert-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.8 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg>
+          </span>
+          <h3>Java Spring Boot — Course Completion</h3>
+          <p class="cert-org">Digisailor</p>
+        </div>
+
+        <div class="cert-card" data-animate="fade-up">
+          <span class="cert-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.8 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg>
+          </span>
+          <h3>One Month Full Stack Development (Java)</h3>
+          <p class="cert-org">NoviTech</p>
+          <span class="mono-label cert-date">JAN 30 — MAR 7, 2025</span>
+        </div>
+
+        <div class="cert-card" data-animate="fade-up">
+          <span class="cert-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.8 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg>
+          </span>
+          <h3>NPTEL — Programming in Java</h3>
+          <p class="cert-org">Score: 86%</p>
+          <span class="mono-label cert-date">JUL — OCT 2025</span>
+        </div>
+
+        <div class="cert-card" data-animate="fade-up">
+          <span class="cert-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.8 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg>
+          </span>
+          <h3>TCS iON Career Edge — Young Professional</h3>
+          <span class="mono-label cert-date">APR 24 — MAY 8, 2026</span>
+        </div>
+
+        <div class="cert-card cert-card-wide" data-animate="fade-up">
+          <span class="cert-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.8 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg>
+          </span>
+          <h3>Certificate of Appreciation — Research Paper Presentation</h3>
+          <p class="cert-org">"Ransomware Detection using Heuristic Traps and Behavioral Anomaly Detection"</p>
+          <span class="mono-label cert-date">2ND INTERNATIONAL CONFERENCE MESMT — 2026</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section section-dark" id="contact">
+    <div class="section-inner">
+      <p class="eyebrow mono-label" data-animate="fade-up">// CONTACT</p>
+      <h2 class="section-title" data-animate="fade-up">Let's build something secure together</h2>
+      <p class="contact-lede" data-animate="fade-up">
+        Open to entry-level Full Stack Developer, Software Developer and Java / Spring Boot Developer roles.
+        Reach out — I'd love to talk.
+      </p>
+
+      <div class="contact-grid" data-animate="fade-up">
+        <a href="mailto:archanaraja121@gmail.com" class="contact-card">
+          <span class="mono-label">EMAIL</span>
+          <span class="contact-value">archanaraja121@gmail.com</span>
+        </a>
+        <a href="tel:+919487191407" class="contact-card">
+          <span class="mono-label">PHONE</span>
+          <span class="contact-value">+91 94871 91407</span>
+        </a>
+        <div class="contact-card contact-card-static">
+          <span class="mono-label">LOCATION</span>
+          <span class="contact-value">Kumbakonam, Tamil Nadu, India</span>
+        </div>
+        <a href="https://www.linkedin.com/in/archana-raja-7aa1692a1/" target="_blank" rel="noopener noreferrer" class="contact-card">
+           <span class="mono-label">LINKEDIN</span>
+           <span class="contact-value">linkedin.com/in/archana-raja</span>
+        </a>
+        <a href="https://github.com/archanaudhaya" target="_blank" rel="noopener noreferrer" class="contact-card">
+           <span class="mono-label">GITHUB</span>
+           <span class="contact-value">github.com/archanaudhaya</span>
+        </a>
+      </div>
+
+      <div class="contact-cta" data-animate="fade-up">
+         <a href="mailto:archanaraja121@gmail.com" class="btn btn-primary btn-lg">Hire Me / Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <span class="mono-label">© 2026 ARCHANA R</span>
+    <span class="mono-label footer-status"><span class="status-dot" aria-hidden="true"></span>BUILT WITH HTML · CSS · JS</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
